@@ -5,6 +5,8 @@ Domain Name System
 Zóna inditó rekord
 
 3. Mire való az NS rekord?
+Az NS rekord a NameServer szó rövidített megfelelője.
+Ez a rekord szolgál arra, hogy egy domain névszervereit megadjuk.
 
 4. Mire való az A rekord?
 IPv4 cím meghatározás
@@ -25,7 +27,11 @@ A szerverről információ leírása
 Az utolsó név egy top-level domain
 
 10. Mire Való a szériaszám?
-
+Például, ha egy adatfájlban az aktuális SOA sorozatszám 101,
+és Ön módosítja a fájl adatait, akkor 101-et 102-re kell módosítania.
+Ha nem módosítja a SOA sorozatszámot, a tartomány szolgakiszolgálói
+nem frissítsék az adatbázisfájlok másolatát az új információkkal.
+Ekkor a mester és a szolga kiszolgáló nincs szinkronban.
 
 11. Hány ugrás lehetséges RIP protokoll esetén?
 15
@@ -40,7 +46,7 @@ távolság vektor
 30mp
 
 15. Milyen időközönként küldenek frissítést a OSPF routerek?
-akkor ha változás van -- jó válasz
+akkor ha változás van
 
 16. Cisco routeren OSPF beállításakor ezt írjuk: router ospf 100. Mi a 100?
 folyamat azonosító
