@@ -1,3 +1,76 @@
+1, Mit jelent a gyenge egyed?
+Nincs olyan tulajdonsága, ami egyértelműen azonosítója
+
+2, Mire használjuk a rombuszt az E-R modellben?
+Kapcsolat
+
+3, Mire használjuk a téglalapot?
+Egyed
+
+4, Mire használjuk az ellipszist?
+Attribútum-Tulajdonság
+
+5, Melyik relációs sémaleírás?
+Dolgozok(az, nev, telepules)
+
+6, Melyik nem 1NF(első normál forma) követelmény?
+Legyen idegen kulcs
+Legyen tranzakció
+
+7, Melyik nem relációs adatbázis követelmény?
+a táblák között kapcsolat van
+
+8, milyen adatbázis rendszer volt a nyolvanas években?
+dBase
+
+9, Az IBM adatbázis rendszerének neve?
+System R
+
+10, Milyen Dos-ból lett az MS-Dos
+86-Dos
+
+11, Melyik adatbázis rendszer használható hálózaton?
+MariaDB
+
+12, Melyik nem egy tábla része?
+port
+
+13, Mi az idegenkulcs?
+Olyan mező amely egy másik táblán elsődleges kulcs
+
+14, Milyen adatbázis-rendszerből lett forkolva a MariaDB?
+MySQL
+
+15, Melyik kapcsolat nem létezik relácios adatbáziskezelo rendszerben?
+erős kapcsolat
+gyenge kapcsolat
+
+16, A normalizálás sroán milyen kapcsolatra kell töreketdni a tálbál között?
+egy a többhöz
+
+17, Az egy a többhöz kapcsolat így is ábrázolható:
+1 -- n
+
+Lehetséges gyakorlati feladat:
+Az ön cége termlékeket szeretne adatbázisban tárolni. Mellette rendeléseket.
+Hozza létre az adatbázis E-R modelljét.
+Írja át relációs sémába és adatmodellbe.
+Tárolni kell egy termék nevét, egységárát, mennyiség egységét. Egy termék, egy rendelés.
+
+E-R modell rajz
+
+Kód:
+Termékek(név, egység, ár)
+Rendelések(dátum, termékAz)
+
+Adatmodell
+
+
+
+
+
+
+
 1. Minek a röviditése a DNS?
 Domain Name System
 
